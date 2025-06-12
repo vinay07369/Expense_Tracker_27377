@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\ExpenseTracker_Capstone\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E871DAF1-B01E-40E0-85FA-6E47F4B22528}|ExpenseTracker_Capstone\\ExpenseTracker_Capstone.csproj|c:\\users\\admin\\source\\repos\\expensetracker_capstone\\expensetracker_capstone\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E871DAF1-B01E-40E0-85FA-6E47F4B22528}|ExpenseTracker_Capstone\\ExpenseTracker_Capstone.csproj|solutionrelative:expensetracker_capstone\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E871DAF1-B01E-40E0-85FA-6E47F4B22528}|ExpenseTracker_Capstone\\ExpenseTracker_Capstone.csproj|c:\\users\\admin\\source\\repos\\expensetracker_capstone\\expensetracker_capstone\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E871DAF1-B01E-40E0-85FA-6E47F4B22528}|ExpenseTracker_Capstone\\ExpenseTracker_Capstone.csproj|solutionrelative:expensetracker_capstone\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E871DAF1-B01E-40E0-85FA-6E47F4B22528}|ExpenseTracker_Capstone\\ExpenseTracker_Capstone.csproj|c:\\users\\admin\\source\\repos\\expensetracker_capstone\\expensetracker_capstone\\views\\expenses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E871DAF1-B01E-40E0-85FA-6E47F4B22528}|ExpenseTracker_Capstone\\ExpenseTracker_Capstone.csproj|solutionrelative:expensetracker_capstone\\views\\expenses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 255,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\ExpenseTracker_Capstone\\ExpenseTracker_Capstone\\Views\\Expenses\\Index.cshtml",
+              "RelativeDocumentMoniker": "ExpenseTracker_Capstone\\Views\\Expenses\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\ExpenseTracker_Capstone\\ExpenseTracker_Capstone\\Views\\Expenses\\Index.cshtml",
+              "RelativeToolTip": "ExpenseTracker_Capstone\\Views\\Expenses\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T16:13:30.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\ExpenseTracker_Capstone\\ExpenseTracker_Capstone\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ExpenseTracker_Capstone\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\ExpenseTracker_Capstone\\ExpenseTracker_Capstone\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ExpenseTracker_Capstone\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAGUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-11T16:09:42.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\ExpenseTracker_Capstone\\ExpenseTracker_Capstone\\Models\\Expense.cs",
+              "RelativeDocumentMoniker": "ExpenseTracker_Capstone\\Models\\Expense.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\ExpenseTracker_Capstone\\ExpenseTracker_Capstone\\Models\\Expense.cs",
+              "RelativeToolTip": "ExpenseTracker_Capstone\\Models\\Expense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T16:08:26.576Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

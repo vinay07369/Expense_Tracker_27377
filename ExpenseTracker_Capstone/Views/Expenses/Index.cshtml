@@ -1,0 +1,63 @@
+﻿@model IEnumerable<ExpenseTracker_Capstone.Models.Expense>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>List of Expenses</h1>
+
+<p>
+    <a asp-action="Create">Click Here</a> to create a New Expense
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Amount</th>
+            <th>Category</th>
+            <th>Date</th>
+            <th>Notes</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Title</td>
+                <td>@item.Amount.ToString("C")</td>
+                <td>@item.Category</td>
+                <td>@item.ExpenseDate.ToShortDateString()</td>
+                <td>@item.Notes</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<h4>Filter Expenses</h4>
+
+<form asp-action="Index" method="get" class="row g-3 mb-4">
+
+    <div class="col-md-3">
+        <label class="form-label">Category</label>
+        <input type="text" name="category" value="" placeholder="category" required/>
+
+        <label class="form-label">StartDate</label>
+        <input type="date" name="startDate" value="" placeholder="start" />
+
+		<label class="form-label">EndDate</label>
+		<input type="date" name="endDate" value="" placeholder="end" />
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Filter</button>
+            <a asp-action="Index" class="btn btn-secondary">Reset</a>  
+        </div>
+
+</form>

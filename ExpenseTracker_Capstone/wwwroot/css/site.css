@@ -1,0 +1,224 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 0;
+}
+
+/* Home section styling */
+.text-center {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.text-center h1 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #2c2e50;
+}
+
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    color: #0056b3; 
+    font-size: 1.5em;
+}
+
+.nav-link {
+    font-weight: 500;
+    transition: color 0.3s ease;
+    gap:10px;
+}
+
+.nav-link:hover {
+    color: #007bff;
+    background-color: lightgray;
+    border-radius: 4px;
+    transform: translateY(-1px);
+}
+
+/* Main Content Container */
+.container {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 100px; 
+    margin-top:80px;
+}
+
+/* Headings */
+h1 {
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+h4 {
+    color: #0056b3;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+p {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #0056b3;
+        text-decoration: none;
+}
+
+/* Buttons */
+.btn {
+    padding: 8px 16px;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: lightgray;
+    color: black;
+    transform: translateY(-1px);
+}
+
+.btn-primary {
+    background-color: #28a745; /* Green for primary actions like "Filter" or "Create" */
+    border-color: #28a745;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* table styling */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 6px; 
+    overflow: hidden; 
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table thead th {
+    background-color: #e9ecef;
+    color: #495057;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.table tbody tr:hover {
+    background-color: #e2f0fb;
+}
+
+/* Table Action Links */
+.table td a {
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+/* form stylings */
+.form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+.form-check {
+    margin-bottom: 15px;
+}
+.footer .container {
+    background-color: #343a40;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 1rem;
+    color: #f8f9fa;
+    box-shadow: none;
+    padding: 0 10px;
+    margin-bottom:0;
+    border-radius: 0;
+    max-width: none; /* Allow it to span full width if desired, or set a specific max-width */
+}
