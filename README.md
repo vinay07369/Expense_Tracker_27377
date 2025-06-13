@@ -78,3 +78,17 @@ User Manual
 
   4. To reset the view, click "Reset" button.
 
+🌐 Deployment (Azure App Services)
+
+The application is deployed using Microsoft Azure App Services.
+
+Deployment Steps:
+
+   1. Publish the project from Visual Studio using Publish > Azure App Service (Windows).
+
+   2. Link your Azure account and create a new Web App.
+
+   3. Configure connection strings and environment variables in the Azure portal.
+
+   4. Deploy the application and verify the live URL.
+
