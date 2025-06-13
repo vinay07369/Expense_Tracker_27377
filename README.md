@@ -2,77 +2,79 @@
 
 Overview
 
-The Expense Tracker is a personal finance web application designed to empower users to efficiently manage their daily spending. It provides a straightforward and intuitive platform to record, view, edit, and delete expenses, featuring a clean and minimal interface for an effortless user experience.
+The Expense Tracker is a personal finance web application designed to help users efficiently manage and monitor their daily expenses. With a clean and minimal interface, this application offers intuitive features for recording, viewing, editing, deleting, and filtering expenses. It empowers users to maintain better control over their spending habits and budgeting.
 
 Features
 
-The Expense Tracker offers the following core functionalities:
+1. Add Expense: Quickly log new expenses with details like title, amount, category, date, and optional notes.
 
-1. Add a new expense: Easily input new spending details, including title, amount, category, date, and optional notes.
+2. View Expenses: Display all recorded expenses in a structured table view.
 
-2. View all expenses: See a comprehensive list of all recorded expenses.
+3. Edit Expense: Modify details of existing expenses.
 
-3. Edit an expense: Modify existing expense entries to correct information or update details.
+4. Delete Expense: Permanently remove unwanted or incorrect entries.
 
-4. Delete an expense: Remove unwanted or erroneous expense records permanently.
+5. Filter Expenses: Filter expenses based on specific categories or date ranges to gain better financial insights.
 
-5. Filter expenses: Efficiently search and organize expenses by specific criteria, specifically by category and Daterange.
+Technologies Used
+
+1. Frontend: ASP.NET Core MVC, Razor Views, Bootstrap
+
+2. Backend: ASP.NET Core MVC
+
+3. Database: SQL Server with Entity Framework Core
+
+4. Hosting: Azure App Services (for deployment)
 
 User Manual
 
-The Expense Tracker provides a simple interface to manage your expenses.
+➕ Add Expense
+   
+  1. Navigate to "Add Expense" via the navigation bar or use the "Add New Expense" button on the expenses page.
 
-1. Add Expense
-  
-   1. Click on the "Add Expense" link in the navigation bar or the "Add New Expense" button on the "List of Expenses" page.
-   
-   2. Fill out the form fields:
-      
-      - Title: A brief description of the expense (e.g., "Groceries", "Dinner with friends").
-        
-      - Amount: The monetary value of the expense.
-        
-      - Category: The category of the expense (e.g., "Food", "Transport", "Entertainment").
-        
-      - ExpenseDate: The date the expense occurred.
-        
-      - Notes: Any additional details (optional).
-        
-   3. Click the "Add" button to save your expense.
-  
-2. View Expenses
-   
-   1. Click on the "View Expense" link in the navigation bar.
-      
-   2. The "List of Expenses" page will display all your recorded expenses in a table format. Each row shows the Title, Amount, Category, Date, and Notes.
-  
-3. Edit Expense
-   
-   1. On the "List of Expenses" page, locate the expense you wish to modify.
-      
-   2. Click the "Edit" button next to that expense's row.
-      
-   3. The form will be pre-filled with the current expense details. Make your desired changes.
-      
-   4. Click the "Save" button to update the expense.
-      
-4. Delete Expense
-   
-   1. On the "List of Expenses" page, locate the expense you wish to remove.
-      
-   2. Click the "Delete" button next to that expense's row.
-      
-   3. A confirmation page will appear, showing the details of the expense to be deleted.
-      
-   4. Click the "Yes" button again on this confirmation page to permanently remove the expense.
-      
-5. Filter Expenses
-   
-   1. On the "List of Expenses" page, locate the "Filter Expenses" section.
-      
-   2. Use the Category textbox to give any category name. (e.g., "Transport").
-      
-   3. Click the "Filter" button. The list of expenses will update to show only those belonging to the selected category.
-      
-   4. To view all expenses again, select "All" from the dropdown and click "Filter".
+  2. Fill in the form:
+
+    - Title: e.g., "Groceries", "Dinner with friends"
+
+    - Amount: e.g., 500
+
+    - Category: e.g., Food, Transport, Entertainment
+
+    - Expense Date: Date when the expense occurred
+
+    - Notes: (Optional) Add any additional information
+
+    - Click "Add" to save the expense.
+    
+👁️ View Expenses
+
+  1. Go to "View Expense" from the navbar.
+
+  2. The page displays a list of all expenses in tabular format with columns for Title, Amount, Category, Date, and Notes.
+
+✏️ Edit Expense
+
+  1. On the list page, find the expense to update and click "Edit".
+
+  2. A pre-filled form will appear with the current details.
+
+  3. Make the necessary changes and click "Save" to update the record.
+
+🗑️ Delete Expense
+
+  1. On the list page, click "Delete" next to the desired expense.
+
+  2. A confirmation screen will appear showing the expense details.
+
+  3. Click "Yes" to confirm and permanently delete the expense.
+
+🔍 Filter Expenses
+
+  1. On the list page, use the Filter Expenses section.
+
+  2. Enter a Category name and specify the startDate abd endDate.
+
+  3. Click "Filter" to view specific results.
+
+  4. To reset the view, click "Reset" button.
 
