@@ -261,3 +261,4 @@ C:\Users\admin\source\repos\ExpenseTracker_Capstone\ExpenseTracker_Capstone\obj\
 C:\Users\admin\source\repos\ExpenseTracker_Capstone\ExpenseTracker_Capstone\obj\Debug\net8.0\ExpenseTracker_Capstone.pdb
 C:\Users\admin\source\repos\ExpenseTracker_Capstone\ExpenseTracker_Capstone\obj\Debug\net8.0\ExpenseTracker_Capstone.genruntimeconfig.cache
 C:\Users\admin\source\repos\ExpenseTracker_Capstone\ExpenseTracker_Capstone\obj\Debug\net8.0\ref\ExpenseTracker_Capstone.dll
+C:\Users\admin\source\repos\ExpenseTracker_Capstone\ExpenseTracker_Capstone\obj\Debug\net8.0\ExpenseTracker_Capstone.sourcelink.json
